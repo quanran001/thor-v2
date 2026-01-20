@@ -26,9 +26,7 @@ Thor (索尔) is an advanced AI agent designed to act as a **Professional Proces
 *   **Feishu/Lark Auto-Archive**: Generated SOPs are automatically saved to your Feishu Bitable (多维表格) for knowledge management.
 *   **JSON Structured Output**: Ready for n8n/Coze automation workflows.
 
-### 4. 🧪 Automated Testing Framework (自动化测试)
-*   Includes a `test_runner` script to simulate various user personas (Finance, HR, Angry Customer).
-*   **Chaos Mode**: Tests Thor's resilience against typos, slang, and messy input.
+
 
 ## 🛠️ Tech Stack (技术栈)
 *   **Framework**: Next.js 14 (App Router)
