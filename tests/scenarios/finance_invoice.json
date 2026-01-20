@@ -1,0 +1,12 @@
+{
+    "id": "finance_invoice_001",
+    "name": "财务发票报销自动化",
+    "persona": "你是一个忙碌的财务专员，不懂技术。痛点是每个月要处理大量员工发来的PDF电子发票，手动录入Excel太慢且容易出错。",
+    "initial_message": "你好，每天都要处理一堆发票，还要一个个录入Excel，太累了，有没有办法自动搞定？",
+    "knowledge_base": {
+        "input_channel": "员工通过企业邮箱发送 PDF 附件给我",
+        "file_format": "主要是 PDF 电子发票，偶尔有图片",
+        "process_logic": "需要提取字段：发票代码、发票号码、开票日期、价税合计金额。如果金额超过1000元需要标记。",
+        "output_channel": "汇总到每月的《报销台账.xlsx》，并邮件发送给财务总监审核。"
+    }
+}
