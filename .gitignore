@@ -1,0 +1,6 @@
+# Thor V2 Open Source Gitignore
+node_modules
+.next
+.env*
+.DS_Store
+*.log
